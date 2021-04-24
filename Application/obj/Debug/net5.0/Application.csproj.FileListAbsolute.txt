@@ -1,0 +1,17 @@
+E:\source\repos\TKReactivities\Application\bin\Debug\net5.0\Application.deps.json
+E:\source\repos\TKReactivities\Application\bin\Debug\net5.0\Application.dll
+E:\source\repos\TKReactivities\Application\bin\Debug\net5.0\ref\Application.dll
+E:\source\repos\TKReactivities\Application\bin\Debug\net5.0\Application.pdb
+E:\source\repos\TKReactivities\Application\bin\Debug\net5.0\Domain.dll
+E:\source\repos\TKReactivities\Application\bin\Debug\net5.0\Persistence.dll
+E:\source\repos\TKReactivities\Application\bin\Debug\net5.0\Persistence.pdb
+E:\source\repos\TKReactivities\Application\bin\Debug\net5.0\Domain.pdb
+E:\source\repos\TKReactivities\Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
+E:\source\repos\TKReactivities\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\source\repos\TKReactivities\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+E:\source\repos\TKReactivities\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+E:\source\repos\TKReactivities\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+E:\source\repos\TKReactivities\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
+E:\source\repos\TKReactivities\Application\obj\Debug\net5.0\Application.dll
+E:\source\repos\TKReactivities\Application\obj\Debug\net5.0\ref\Application.dll
+E:\source\repos\TKReactivities\Application\obj\Debug\net5.0\Application.pdb

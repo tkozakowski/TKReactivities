@@ -1,0 +1,15 @@
+E:\source\repos\TKReactivities\Persistence\bin\Debug\net5.0\Persistence.deps.json
+E:\source\repos\TKReactivities\Persistence\bin\Debug\net5.0\Persistence.dll
+E:\source\repos\TKReactivities\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+E:\source\repos\TKReactivities\Persistence\bin\Debug\net5.0\Persistence.pdb
+E:\source\repos\TKReactivities\Persistence\bin\Debug\net5.0\Domain.dll
+E:\source\repos\TKReactivities\Persistence\bin\Debug\net5.0\Domain.pdb
+E:\source\repos\TKReactivities\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+E:\source\repos\TKReactivities\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\source\repos\TKReactivities\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+E:\source\repos\TKReactivities\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+E:\source\repos\TKReactivities\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+E:\source\repos\TKReactivities\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+E:\source\repos\TKReactivities\Persistence\obj\Debug\net5.0\Persistence.dll
+E:\source\repos\TKReactivities\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+E:\source\repos\TKReactivities\Persistence\obj\Debug\net5.0\Persistence.pdb

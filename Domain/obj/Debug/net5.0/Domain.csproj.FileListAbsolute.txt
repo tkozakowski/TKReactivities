@@ -1,0 +1,12 @@
+E:\source\repos\TKReactivities\Domain\bin\Debug\net5.0\Domain.deps.json
+E:\source\repos\TKReactivities\Domain\bin\Debug\net5.0\Domain.dll
+E:\source\repos\TKReactivities\Domain\bin\Debug\net5.0\ref\Domain.dll
+E:\source\repos\TKReactivities\Domain\bin\Debug\net5.0\Domain.pdb
+E:\source\repos\TKReactivities\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+E:\source\repos\TKReactivities\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\source\repos\TKReactivities\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+E:\source\repos\TKReactivities\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+E:\source\repos\TKReactivities\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+E:\source\repos\TKReactivities\Domain\obj\Debug\net5.0\Domain.dll
+E:\source\repos\TKReactivities\Domain\obj\Debug\net5.0\ref\Domain.dll
+E:\source\repos\TKReactivities\Domain\obj\Debug\net5.0\Domain.pdb
