@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\source\\repos\\TKReactivities\\Application\\Application.csproj": {}
+    "e:\\source\\repos\\TKReactivities\\Application\\Application.csproj": {}
   },
   "projects": {
-    "E:\\source\\repos\\TKReactivities\\Application\\Application.csproj": {
+    "e:\\source\\repos\\TKReactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\TKReactivities\\Application\\Application.csproj",
+        "projectUniqueName": "e:\\source\\repos\\TKReactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\source\\repos\\TKReactivities\\Application\\Application.csproj",
+        "projectPath": "e:\\source\\repos\\TKReactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\48791\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\TKReactivities\\Application\\obj\\",
+        "outputPath": "e:\\source\\repos\\TKReactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj"
+              "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj": {
+                "projectPath": "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj"
               },
-              "E:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "E:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj"
+              "e:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "e:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -51,6 +51,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -75,14 +79,14 @@
         }
       }
     },
-    "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj": {
+    "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
+        "projectPath": "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\48791\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\TKReactivities\\Domain\\obj\\",
+        "outputPath": "e:\\source\\repos\\TKReactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -133,14 +137,14 @@
         }
       }
     },
-    "E:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj": {
+    "e:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "e:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "E:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "e:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\48791\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\TKReactivities\\Persistence\\obj\\",
+        "outputPath": "e:\\source\\repos\\TKReactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -161,8 +165,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj"
+              "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj": {
+                "projectPath": "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj"
               }
             }
           }
