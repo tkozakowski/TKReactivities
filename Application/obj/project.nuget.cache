@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "1ekHk/We57QecIMm1R99LJVdWFGg+Wob9eu0CzxeKsxZzZ4gNPpnFeeEhqw+rZXHrMQJpPhs8UzwLxluQXY/9Q==",
+  "dgSpecHash": "uY8iusaL3OKF7qXXeIHbX8U5AeF0jL4SUMfljLtBxKCbSITr9azLTjGZf5BBvrMGGFZVqps3zmtWu7Yvn7zTMQ==",
   "success": true,
   "projectFilePath": "e:\\source\\repos\\TKReactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48791\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\48791\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\48791\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
+    "C:\\Users\\48791\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.1.0\\fluentvalidation.aspnetcore.10.1.0.nupkg.sha512",
+    "C:\\Users\\48791\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.1.0\\fluentvalidation.dependencyinjectionextensions.10.1.0.nupkg.sha512",
     "C:\\Users\\48791\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\48791\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\48791\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -37,12 +40,5 @@
     "C:\\Users\\48791\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\48791\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Wystąpił problem podczas czytania pliku pamięci podręcznej e:\\source\\repos\\TKReactivities\\Application\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
