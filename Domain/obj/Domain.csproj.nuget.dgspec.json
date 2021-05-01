@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj": {}
+    "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj": {
+    "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
+        "projectPath": "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\48791\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\TKReactivities\\Domain\\obj\\",
+        "outputPath": "e:\\source\\repos\\TKReactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
