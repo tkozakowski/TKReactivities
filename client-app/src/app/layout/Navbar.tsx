@@ -1,8 +1,11 @@
 import React from 'react';
 import { Button, Container, Menu } from 'semantic-ui-react';
 
+interface Props{
+    handleEmptyForm: () => void;
+}
 
-export default function NavBar(){
+export default function NavBar({handleEmptyForm}: Props){
     return (
         <Menu inverted fixed='top'>
             <Container>
@@ -12,7 +15,7 @@ export default function NavBar(){
                 </Menu.Item>
                 <Menu.Item name='Activities'/>
                 <Menu.Item>
-                    <Button positive content='Create activity'/>
+                    <Button positive content='Create activity' onClick={() => handleEmptyForm()}/>
                 </Menu.Item>
             </Container>
         </Menu>
