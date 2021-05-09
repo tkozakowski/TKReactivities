@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/LZ1nJIYPc2wM+jmS1aXbeioB7NulvdyLmtrY8MXPvcJqNbVPz+pEsH11hME0DAXysTwhzy/uBirVFn3COtpLw==",
+  "dgSpecHash": "Ryw+Kpcbrq5+NlQNAn/ZkTpHxJbAXAOP3TeEpO6xPqrtLCEWYz3+BRssGfjJJZmACsBrDbPf1Vpjv4s172VFzA==",
   "success": true,
-  "projectFilePath": "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

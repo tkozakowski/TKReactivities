@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uY8iusaL3OKF7qXXeIHbX8U5AeF0jL4SUMfljLtBxKCbSITr9azLTjGZf5BBvrMGGFZVqps3zmtWu7Yvn7zTMQ==",
+  "dgSpecHash": "Av2dGZ9gJpPqT+YPRyrYwR24yf08NLVxFoE7j2I67YdtKLLYhWl5fjU/mLTBiyxaDM/imFIcIfp7Ls/5v1zdlw==",
   "success": true,
-  "projectFilePath": "e:\\source\\repos\\TKReactivities\\Application\\Application.csproj",
+  "projectFilePath": "E:\\source\\repos\\TKReactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48791\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\48791\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -40,5 +40,12 @@
     "C:\\Users\\48791\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\48791\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\source\\repos\\TKReactivities\\Application\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
