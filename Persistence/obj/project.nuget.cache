@@ -1,10 +1,14 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "HFS3K9Ps/LZ0u1j7l4aUIo4Fa7MuHquYxnAY5RPNh8Bb1NADucQtvomPocRp9/ThrOZWlpf9UvTYzT3elf7z9A==",
 =======
   "dgSpecHash": "bcKOgCcNJAKjgboSeqgjLA93tFKBPq3MVa3VGJyD5KvztaY0XckTKkcnq2mp4j7ORqXso5z1HtKW3wL2Pp1yqg==",
 >>>>>>> 8e568b05d4349899805df11bd7242988a09a36e8
+=======
+  "dgSpecHash": "bcKOgCcNJAKjgboSeqgjLA93tFKBPq3MVa3VGJyD5KvztaY0XckTKkcnq2mp4j7ORqXso5z1HtKW3wL2Pp1yqg==",
+>>>>>>> Identity
   "success": true,
   "projectFilePath": "E:\\source\\repos\\TKReactivities\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
