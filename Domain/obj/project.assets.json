@@ -747,11 +747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
+      "projectUniqueName": "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "e:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
+      "projectPath": "E:\\source\\repos\\TKReactivities\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\48791\\.nuget\\packages\\",
-      "outputPath": "e:\\source\\repos\\TKReactivities\\Domain\\obj\\",
+      "outputPath": "E:\\source\\repos\\TKReactivities\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -807,5 +807,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Wystąpił problem podczas czytania pliku pamięci podręcznej E:\\source\\repos\\TKReactivities\\Domain\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

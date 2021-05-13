@@ -1,22 +1,25 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { Activity } from "../models/activity";
 import Navbar from "./Navbar";
 import { Container } from "semantic-ui-react";
 import ActivityDashboard from "../../features/activities/dashboard/ActivityDashboard";
-import {v4 as uuid} from 'uuid';
+import { v4 as uuid } from "uuid";
+import agent from "../api/agent";
 
 function App() {
   const [activities, setActivities] = useState<Activity[]>([]);
   const [selectedActivity, setSelectedActivity] = useState<Activity | undefined>(undefined);
-  const [editActivity, setEditActivity] = useState(false); 
+  const [editActivity, setEditActivity] = useState(false);
 
   useEffect(() => {
-    axios
-      .get<Activity[]>("http://localhost:5000/api/activities")
-      .then((response) => {
-        setActivities(response.data);
+    agent.Activities.list().then((response) => {
+      let activities: Activity[] = [];
+      response.forEach((activity) => {
+        activity.date = activity.date.split("T")[0];
+        activities.push(activity);
       });
+      setActivities(activities);
+    });
   }, []);
 
   function handleSelectActivity(id: string) {
@@ -27,45 +30,47 @@ function App() {
     setSelectedActivity(undefined);
   }
 
-  const handleEmptyForm = () =>{
+  const handleEmptyForm = () => {
     setSelectedActivity(undefined);
     setEditActivity(true);
-  }
+  };
 
   function handleActivityDetail(id?: string) {
     setEditActivity(false);
     id ? handleSelectActivity(id) : setSelectedActivity(undefined);
   }
 
-  function createOrEditActivity(activity: Activity){
+  function createOrEditActivity(activity: Activity) {
     // const notUpdatedActivities = [...activities.filter(x => x.id !== activity.id)]
-    activity.id 
-        ? setActivities([...activities.filter(x => x.id !== activity.id), activity]) //update
-        : setActivities([...activities, {...activity, id:uuid()}]) //add
-        
+    activity.id
+      ? setActivities([
+          ...activities.filter((x) => x.id !== activity.id),
+          activity,
+        ]) //update
+      : setActivities([...activities, { ...activity, id: uuid() }]); //add
+
     setEditActivity(false);
     setSelectedActivity(activity);
   }
 
-
-  function handleDeleteActivity(id: string){
-    setActivities([...activities.filter(x => x.id !== id)])
+  function handleDeleteActivity(id: string) {
+    setActivities([...activities.filter((x) => x.id !== id)]);
   }
 
   return (
     <>
-      <Navbar handleEmptyForm ={handleEmptyForm}/>
+      <Navbar handleEmptyForm={handleEmptyForm} />
       <Container style={{ marginTop: "7em" }}>
-        <ActivityDashboard 
-        activities={activities} 
-        selectedActivity={selectedActivity}
-        selectActivity = {handleSelectActivity}
-        cancelSelectedActivity = {handleCancelSelectedActivity}
-        editActivity = {editActivity}
-        setEditActivity = {setEditActivity}
-        handleActivityDetail = {handleActivityDetail}
-        createOrEditActivity = {createOrEditActivity}
-        deleteActivity = {handleDeleteActivity}
+        <ActivityDashboard
+          activities={activities}
+          selectedActivity={selectedActivity}
+          selectActivity={handleSelectActivity}
+          cancelSelectedActivity={handleCancelSelectedActivity}
+          editActivity={editActivity}
+          setEditActivity={setEditActivity}
+          handleActivityDetail={handleActivityDetail}
+          createOrEditActivity={createOrEditActivity}
+          deleteActivity={handleDeleteActivity}
         />
       </Container>
     </>

@@ -1,4 +1,3 @@
-import React from "react";
 import { Button, Card, Image } from "semantic-ui-react";
 import { Activity } from "../../../app/models/activity";
 

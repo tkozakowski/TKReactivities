@@ -1,14 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "dgSpecHash": "Av2dGZ9gJpPqT+YPRyrYwR24yf08NLVxFoE7j2I67YdtKLLYhWl5fjU/mLTBiyxaDM/imFIcIfp7Ls/5v1zdlw==",
-=======
   "dgSpecHash": "bAu36pv4Fz7PNBcx7InLBveh13cj5L+ooVYHqUft++HZ1cAn8aNGoSw7d9qyoxWip5AUH1fMsYdaOKvmEwbMXw==",
->>>>>>> 8e568b05d4349899805df11bd7242988a09a36e8
-=======
-  "dgSpecHash": "bAu36pv4Fz7PNBcx7InLBveh13cj5L+ooVYHqUft++HZ1cAn8aNGoSw7d9qyoxWip5AUH1fMsYdaOKvmEwbMXw==",
->>>>>>> Identity
   "success": true,
   "projectFilePath": "E:\\source\\repos\\TKReactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -58,7 +50,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\source\\repos\\TKReactivities\\Application\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Wystąpił problem podczas czytania pliku pamięci podręcznej E:\\source\\repos\\TKReactivities\\Application\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

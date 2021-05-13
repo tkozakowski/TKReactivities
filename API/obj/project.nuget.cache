@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hvPYtpD0gYV40wWayydPRQiZFP+W8h6ie8igE6SZXquwqBeo+h/iX7fLYJCkIKVGVcoBOR82qZ8r55c3XVhBVw==",
+  "dgSpecHash": "xs6WxBOgxgmjWw9yA/unGiWrtzb7WMebRwHphsdM5FNPQkNeJbPpMcDsyDkqBcohw8NfwnoBz7Fjm1ISGCJGZw==",
   "success": true,
-  "projectFilePath": "E:\\source\\repos\\TKReactivities\\API\\API.csproj",
+  "projectFilePath": "E:\\source\\repos\\TKReactivities\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48791\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\48791\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

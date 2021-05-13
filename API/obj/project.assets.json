@@ -742,14 +742,14 @@
         },
         "runtime": {
           "bin/placeholder/Application.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -762,6 +762,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Domain": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.1"
         },
         "compile": {
@@ -2024,11 +2025,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\source\\repos\\TKReactivities\\API\\API.csproj",
+      "projectUniqueName": "E:\\source\\repos\\TKReactivities\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "E:\\source\\repos\\TKReactivities\\API\\API.csproj",
+      "projectPath": "E:\\source\\repos\\TKReactivities\\api\\API.csproj",
       "packagesPath": "C:\\Users\\48791\\.nuget\\packages\\",
-      "outputPath": "E:\\source\\repos\\TKReactivities\\API\\obj\\",
+      "outputPath": "E:\\source\\repos\\TKReactivities\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
