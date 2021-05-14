@@ -4,14 +4,14 @@ import { Activity } from "../../../app/models/activity";
 interface Props {
   activity: Activity;
   cancelSelectedActivity: () => void;
-  setEditActivity: (isFormActive: boolean) => void; 
+  setEditMode: (isFormActive: boolean) => void; 
 }
 
-export default function ActivityDetails({ activity, cancelSelectedActivity, setEditActivity }: Props) {
+export default function ActivityDetails({ activity, cancelSelectedActivity, setEditMode }: Props) {
 
   const handleCancel = () =>{
     cancelSelectedActivity();
-    setEditActivity(false);
+    setEditMode(false);
   }
   return (
     <Card fluid>
@@ -25,7 +25,7 @@ export default function ActivityDetails({ activity, cancelSelectedActivity, setE
       </Card.Content>
       <Card.Content extra>
         <Button.Group widths='2'>
-            <Button basic color='blue' content='Edit'onClick={() => setEditActivity(true)}/>
+            <Button basic color='blue' content='Edit'onClick={() => setEditMode(true)}/>
             <Button basic color='grey' content='Cancel'onClick={() => handleCancel()}/>
         </Button.Group>
       </Card.Content>

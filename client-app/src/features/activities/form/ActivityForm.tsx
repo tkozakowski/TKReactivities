@@ -4,11 +4,12 @@ import { Activity } from "../../../app/models/activity";
 
 interface Props{
     activity: Activity | undefined;
-    setEditActivity : (isFormActive: boolean) => void;
+    setEditMode : (isFormActive: boolean) => void;
     createOrEditActivity: (activity: Activity) => void;
+    submitting: boolean;
 }
 
-export default function ActivityForm({activity:selectedActivity, setEditActivity, createOrEditActivity}: Props) {
+export default function ActivityForm({activity:selectedActivity, setEditMode, createOrEditActivity, submitting}: Props) {
 
   const initialState = selectedActivity ?? {
     id: '',
@@ -41,8 +42,8 @@ export default function ActivityForm({activity:selectedActivity, setEditActivity
         <Form.Input placeholder="Date" type='date' value={activity.date} name='date' onChange={handleInputChange}/>
         <Form.Input placeholder="City" value={activity.city} name = 'city' onChange={handleInputChange}/>
         <Form.Input placeholder="Venue" value = {activity.venue} name = 'venue'onChange={handleInputChange}/>
-        <Button floated='right' positive type='submit' content = 'Submit' />
-        <Button floated='right' content = 'Cancel'onClick = {() => setEditActivity(false)}/>
+        <Button floated='right' positive type='submit' content = 'Submit' loading = {submitting} />
+        <Button floated='right' content = 'Cancel'onClick = {() => setEditMode(false)}/>
       </Form>
     </Segment>
   );

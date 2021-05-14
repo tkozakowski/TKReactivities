@@ -1,4 +1,4 @@
-import React from "react";
+import { SyntheticEvent, useState } from "react";
 import { Button, Item, Label, Segment } from "semantic-ui-react";
 import { Activity } from "../../../app/models/activity";
 
@@ -8,9 +8,18 @@ interface Props {
 
   handleActivityDetail: (id: string) => void;
   deleteActivity: (id: string) => void;
+  submitting: boolean;
 }
 
-export default function ActivityList({ activities, selectActivity, handleActivityDetail, deleteActivity}: Props) {
+export default function ActivityList({ activities, selectActivity, handleActivityDetail, 
+  deleteActivity, submitting}: Props) {
+
+    const [target, setTarget] = useState('');
+
+    function handleActivityDelete(e:SyntheticEvent<HTMLButtonElement>, id: string){
+      setTarget(e.currentTarget.name);
+      deleteActivity(id);
+    }
   return (
     <Segment>
         <Item.Group divided>
@@ -24,9 +33,19 @@ export default function ActivityList({ activities, selectActivity, handleActivit
                            <div>{activity.city}, {activity.venue}</div>
                         </Item.Description>
                         <Item.Extra>
-                            <Button floated='right' content='View' color='blue' onClick={() => handleActivityDetail(activity.id)}/>
+                            <Button 
+                              floated='right' 
+                              content='View' 
+                              color='blue' 
+                              onClick={() => handleActivityDetail(activity.id)}/>
                             <Label basic content={activity.category}/>
-                            <Button floated='right' content='delete' color='red' onClick={() => deleteActivity(activity.id)}/>
+                            <Button 
+                              name={activity.id}
+                              floated='right' 
+                              content='delete' 
+                              color='red' 
+                              loading={submitting && target === activity.id}
+                              onClick={(e) => handleActivityDelete(e, activity.id)}/>
                         </Item.Extra>
                     </Item.Content>
                 </Item>
