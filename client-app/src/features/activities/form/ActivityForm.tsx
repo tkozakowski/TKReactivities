@@ -1,17 +1,14 @@
-import React, { ChangeEvent, useState } from "react";
+import { ChangeEvent, useState } from "react";
 import { Button, Form, Segment } from "semantic-ui-react";
-import { Activity } from "../../../app/models/activity";
+import { useStore } from "../../../app/stores/store";
 
-interface Props{
-    activity: Activity | undefined;
-    setEditMode : (isFormActive: boolean) => void;
-    createOrEditActivity: (activity: Activity) => void;
-    submitting: boolean;
-}
 
-export default function ActivityForm({activity:selectedActivity, setEditMode, createOrEditActivity, submitting}: Props) {
+export default function ActivityForm() {
 
-  const initialState = selectedActivity ?? {
+  const {activityStore}= useStore();
+  const { closeForm, createActivity, updateActivity, loading} = activityStore;
+
+  const initialState = activityStore.selectedActivity  ?? {
     id: '',
     description: '',
     title: '',
@@ -22,10 +19,10 @@ export default function ActivityForm({activity:selectedActivity, setEditMode, cr
   }
 
   const [activity, setActivity] = useState(initialState);
+  
 
   function handleSubmit(){
-    console.log(activity);
-    createOrEditActivity(activity);
+    activity.id ? updateActivity(activity) : createActivity(activity)
   }
 
   function handleInputChange(e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>){
@@ -42,8 +39,8 @@ export default function ActivityForm({activity:selectedActivity, setEditMode, cr
         <Form.Input placeholder="Date" type='date' value={activity.date} name='date' onChange={handleInputChange}/>
         <Form.Input placeholder="City" value={activity.city} name = 'city' onChange={handleInputChange}/>
         <Form.Input placeholder="Venue" value = {activity.venue} name = 'venue'onChange={handleInputChange}/>
-        <Button floated='right' positive type='submit' content = 'Submit' loading = {submitting} />
-        <Button floated='right' content = 'Cancel'onClick = {() => setEditMode(false)}/>
+        <Button floated='right' positive type='submit' content = 'Submit' loading = {loading} />
+        <Button floated='right' content = 'Cancel'onClick = {() => closeForm()}/>
       </Form>
     </Segment>
   );
