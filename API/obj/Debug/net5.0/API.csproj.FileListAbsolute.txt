@@ -80,3 +80,5 @@ E:\source\repos\TKReactivities\api\bin\Debug\net5.0\Microsoft.IdentityModel.Prot
 E:\source\repos\TKReactivities\api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\source\repos\TKReactivities\api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 E:\source\repos\TKReactivities\api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\source\repos\TKReactivities\API\bin\Debug\net5.0\Infrastructure.dll
+E:\source\repos\TKReactivities\API\bin\Debug\net5.0\Infrastructure.pdb

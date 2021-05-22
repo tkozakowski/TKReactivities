@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\source\\repos\\TKReactivities\\api\\API.csproj": {}
+    "E:\\source\\repos\\TKReactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "E:\\source\\repos\\TKReactivities\\api\\API.csproj": {
+    "E:\\source\\repos\\TKReactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\repos\\TKReactivities\\api\\API.csproj",
+        "projectUniqueName": "E:\\source\\repos\\TKReactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\source\\repos\\TKReactivities\\api\\API.csproj",
+        "projectPath": "E:\\source\\repos\\TKReactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\48791\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\repos\\TKReactivities\\api\\obj\\",
+        "outputPath": "E:\\source\\repos\\TKReactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -34,6 +34,9 @@
             "projectReferences": {
               "E:\\source\\repos\\TKReactivities\\Application\\Application.csproj": {
                 "projectPath": "E:\\source\\repos\\TKReactivities\\Application\\Application.csproj"
+              },
+              "E:\\source\\repos\\TKReactivities\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\source\\repos\\TKReactivities\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -225,6 +228,68 @@
               "version": "[5.0.5, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\source\\repos\\TKReactivities\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\source\\repos\\TKReactivities\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "E:\\source\\repos\\TKReactivities\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\48791\\.nuget\\packages\\",
+        "outputPath": "E:\\source\\repos\\TKReactivities\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\48791\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\source\\repos\\TKReactivities\\Application\\Application.csproj": {
+                "projectPath": "E:\\source\\repos\\TKReactivities\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",

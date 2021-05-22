@@ -3,14 +3,10 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Domain;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using MediatR;
 using Application.Activities;
-using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
-    [AllowAnonymous]
     public class ActivitiesController : BaseApiController
     {
 
@@ -18,13 +14,13 @@ namespace API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetActivities()
         {
-            return HandleResult<List<Activity>>(await Mediator.Send(new List.Query()));
+            return HandleResult<List<ActivityDto>>(await Mediator.Send(new List.Query()));
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetActivity(Guid id)
         {
-            return HandleResult<Activity>(await Mediator.Send(new Details.Query { Id = id }));
+            return HandleResult<ActivityDto>(await Mediator.Send(new Details.Query { Id = id }));
         }
 
         [HttpPost]
@@ -45,6 +41,12 @@ namespace API.Controllers
         public async Task<IActionResult> DeleteActivity(Guid id)
         {
             return HandleResult(await Mediator.Send(new Delete.Command { Id = id }));
+        }
+
+        [HttpPost("{id}/attend")]
+        public async Task<IActionResult> Attend(Guid id)
+        {
+            return HandleResult(await Mediator.Send(new UpdateAttendence.Commmand{Id = id}));
         }
     }
 }
