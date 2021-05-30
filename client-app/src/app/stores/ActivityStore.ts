@@ -3,7 +3,7 @@ import agent from "../api/agent";
 import { Activity } from "../models/activity";
 import {v4 as uuid} from 'uuid';
 
-export default class activityStore {
+export default class ActivityStore {
   activities: Activity[] = [];
   selectedActivity: Activity | undefined = undefined;
   loading = true;
